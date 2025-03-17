@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Cake</title>
+    <style>
+        body {
+            font-family: Times New Roman, sans-serif;
+            background-image: url('wishes.webp');
+            background-size: width="1080px" 
+                             height="2400px";
+            background-position: center;
+            text-align: center;
+            color: #a83279;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        nav {
+            background: rgba(255, 105, 180, 0.8);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        nav a {
+            margin: 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        h1 {
+            color: #ff1493;
+        }
+        .hearts {
+            font-size: 50px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <audio id="bg-music" autoplay loop>
+        <source src="Pasandida Aurat - Akhil.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let audio = document.getElementById('bg-music');
+            audio.volume = 0.5; // Adjust volume if needed
+        });
+    </script>
+
+    <nav>
+        <a href="cake.html">Cake</a>
+        <a href="video.html">Special Video</a>
+        <a href="proposal.html">Proposal</a>
+    </nav>
+
+    <div class="container">
+    <h1>The Birthday Cake 🎂</h1>
+    <img src="cake.webp" alt="Birthday Cake" width="300">
+
+    <a href="index.html">Back to Home</a>
+</body>
+</html>
